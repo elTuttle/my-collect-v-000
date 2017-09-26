@@ -1,4 +1,4 @@
-def collect (collection)
+def my_collect (collection)
   counter = 0
   while counter < collection.size
     yield(collection[counter])
